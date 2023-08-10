@@ -11,6 +11,9 @@
 
 1.  直接下载，然后`{你的默认shell} {脚本名}`即可
 
+#### 运行方式
+windows powershell 美化：
+`irm http://gg.gg/l2lpMh | iex`
 
 
 #### 参与贡献
