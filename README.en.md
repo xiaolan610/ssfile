@@ -1,36 +1,26 @@
-# shellfiles
+#Shellfiles
 
-#### Description
-一些杂碎脚本
+####Introduction
 
-#### Software Architecture
-Software architecture description
+Some miscellaneous scripts
 
-#### Installation
+####Software Architecture
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Auto
 
-#### Instructions
+####Installation Tutorial
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Download directly, and then '{your default shell} {script name}' will suffice
 
-#### Contribution
+####Participation contribution
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+You can:
+1. Fork warehouse
+2. Create a new Feat_ Xxx branch
+3. Submit Code
+4. Create a new Pull Request
 
+####Did you report an error?
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+First, look at the. md file under the branch
+! [Enter image description] (. gite/Central% 20Topic. jpg)
