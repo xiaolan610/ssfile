@@ -1,4 +1,4 @@
-﻿cls
+cls
 python -m pyfiglet --color=LIGHT_CYAN "Lan's Powershell"
 doskey ls=dir /b $*
 doskey ll=dir /ONE $*
@@ -30,6 +30,9 @@ doskey chi=choco $*
 rich -p "[#90ee90]欢迎━(*｀∀´*)ノ亻!"
 rich -p "[#90ee90]若想查看命令别名，请运行alias命令"
 Import-Module posh-git
+Import-Module ZLocation
+Import-Module PSReadLine
+Import-Module DirColors
 oh-my-posh init pwsh --config ~/montys.omp.json | Invoke-Expression
 
 
