@@ -1,12 +1,12 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 Register-PSRepository -Default -Verbose
 Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 Set-ExecutionPolicy AllSigne
 install-Module PSColor
 Install-Module DirColors
 Import-Module ZLocation
 Install-Module PSReadLine -AllowPrerelease -Force
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 oh-my-posh init
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 Install-Module ZLocation -Scope CurrentUser
