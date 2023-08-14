@@ -15,7 +15,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 scoop install aria2
 scoop config aria2-retry-wait 4
-scoop config aria2-split 16
+scoop config aria2-split 1024
 scoop config aria2-max-connection-per-server 16
 scoop config aria2-min-split-size 4M
 scoop install git
