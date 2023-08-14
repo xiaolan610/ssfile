@@ -8,8 +8,7 @@ Install-Module DirColors -Scope CurrentUser -Force
 install-Module ZLocation -Scope CurrentUser -Force
 install-Module PSReadLine -Scope CurrentUser -Force
 oh-my-posh init
-PowerShellGet\Install-Module posh-git -AllowPrerelease -Scope CurrentUser -Force
-Install-Module ZLocation -Scope CurrentUser
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
