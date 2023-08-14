@@ -33,7 +33,7 @@ scoop config SCOOP_REPO https://ghproxy.com/github.com/ScoopInstaller/Scoop
 scoop bucket add main https://ghproxy.com/github.com/ScoopInstaller/Main
 scoop bucket add games https://ghproxy.com/https://github.com/Calinou/scoop-games
 scoop bucket add RandomLabs https://ghproxy.com/https://github.com/TheRandomLabs/Scoop-Bucket
-scoop bucket add sc https://ghproxy.com/https://github.com/duzyn/scoop-cn.git
+scoop bucket add sc https://ghproxy.com/https://github.com/duzyn/scoop-cn
 scoop install git sudo python nano yesplaymusic Meslo-NF-Mono Meslo-NF
 echo 你好，屏幕前的人，我想拜托你一件事情：请您先按下“Ctrl+,”快捷键，然后点击配置文件下的默认值，再点击外观选项，在字体栏上选择MesloLGL Nerd Font并回到这个标签页按下Enter键，谢谢
 echo 另外，如果报错请点击确定，并不用做任何事情，谢谢(●'◡'●)
