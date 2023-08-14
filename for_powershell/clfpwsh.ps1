@@ -54,5 +54,5 @@ mv Microsoft.PowerShell_profile.ps1 ~\Documents\WindowsPowerShell\Microsoft.Powe
 .$profile
 rich -p "[green]基本完成╰(*°▽°*)╯"
 rich -p "[cyan]若想修改艺术字，请运行 [yellow]notepad $profile[cyan]并更新[yellow]python -m pyfiglet --color=LIGHT_CYAN [cyan]后的内容（别动引号）谢谢"
-rich -p "[yellow]如果上方有乱码，请将[blue]$Profile的编码格式改为utf8-bom"
+rich -p "[yellow]如果上方有乱码，请将[blue]$Profile[yellow]的编码格式改为utf8-bom"
 
