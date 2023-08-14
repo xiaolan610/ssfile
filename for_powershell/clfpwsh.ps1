@@ -3,12 +3,12 @@ Register-PSRepository -Default -Verbose
 Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 Set-ExecutionPolicy AllSigne
-install-Module PSColor
-Install-Module DirColors
-Import-Module ZLocation
-Install-Module PSReadLine -AllowPrerelease -Force
+install-Module PSColor -AllowPrerelease -Scope CurrentUser -Force
+Install-Module DirColors -AllowPrerelease -Scope CurrentUser -Force
+install-Module ZLocation -AllowPrerelease -Scope CurrentUser -Force
+install-Module PSReadLine -AllowPrerelease -Scope CurrentUser -Force
 oh-my-posh init
-PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+PowerShellGet\Install-Module posh-git -AllowPrerelease -Scope CurrentUser -Force
 Install-Module ZLocation -Scope CurrentUser
 irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
