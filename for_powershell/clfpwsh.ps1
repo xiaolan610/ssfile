@@ -13,11 +13,12 @@ Install-Module ZLocation -Scope CurrentUser
 irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
-scoop install aria2c git
+scoop install aria2
 scoop config aria2-retry-wait 4
 scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
 scoop config aria2-min-split-size 4M
+scoop install git
 scoop bucket rm main
 scoop bucket add dorado https://ghproxy.com/https://github.com/chawyehsu/dorado
 scoop bucket add versions https://ghproxy.com/https://github.com/ScoopInstaller/Versions
