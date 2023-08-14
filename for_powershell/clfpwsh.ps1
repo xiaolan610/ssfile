@@ -1,14 +1,3 @@
-[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
-Register-PSRepository -Default -Verbose
-Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
-Set-ExecutionPolicy AllSigne
-install-Module PSColor -Scope CurrentUser -Force
-Install-Module DirColors -Scope CurrentUser -Force
-install-Module ZLocation -Scope CurrentUser -Force
-install-Module PSReadLine -Scope CurrentUser -Force
-oh-my-posh init
-PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
@@ -39,6 +28,17 @@ echo 你好，屏幕前的人，我想拜托你一件事情：请您先按下“
 echo 另外，如果报错请点击确定，并不用做任何事情，谢谢(●'◡'●)
 pause
 choco install node.js
+[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
+Register-PSRepository -Default -Verbose
+Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
+Set-ExecutionPolicy AllSigne
+install-Module PSColor -Scope CurrentUser -Force
+Install-Module DirColors -Scope CurrentUser -Force
+install-Module ZLocation -Scope CurrentUser -Force
+install-Module PSReadLine -Scope CurrentUser -Force
+oh-my-posh init
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip install rich cython pyfiglet
 cd ~
