@@ -20,20 +20,20 @@ scoop config aria2-max-connection-per-server 16
 scoop config aria2-min-split-size 4M
 scoop install git
 scoop bucket rm main
-scoop bucket add dorado https://ghproxy.com/https://github.com/chawyehsu/dorado
-scoop bucket add versions https://ghproxy.com/https://github.com/ScoopInstaller/Versions
-scoop bucket add extras https://ghproxy.com/https://github.com/ScoopInstaller/Extras
-scoop bucket add nerd-fonts https://ghproxy.com/https://github.com/matthewjberger/scoop-nerd-fonts
-scoop bucket add java https://ghproxy.com/https://github.com/ScoopInstaller/Java
-scoop bucket add nonportable https://ghproxy.com/https://github.com/TheRandomLabs/scoop-nonportable
-scoop bucket add nirsoft https://ghproxy.com/https://github.com/kodybrown/scoop-nirsoft
-scoop bucket add MorFans-apt https://ghproxy.com/https://github.com/Paxxs/Cluttered-bucket
-scoop bucket add spc https://ghproxy.com/https://github.com/lzwme/scoop-proxy-cn
+scoop bucket add dorado https://kgithub.com/chawyehsu/dorado
+scoop bucket add versions https://kgithub.com/ScoopInstaller/Versions
+scoop bucket add extras https://kgithub.com/ScoopInstaller/Extras
+scoop bucket add nerd-fonts https://kgithub.com/matthewjberger/scoop-nerd-fonts
+scoop bucket add java https://kgithub.com/ScoopInstaller/Java
+scoop bucket add nonportable https://kgithub.com/TheRandomLabs/scoop-nonportable
+scoop bucket add nirsoft https://kgithub.com/kodybrown/scoop-nirsoft
+scoop bucket add MorFans-apt https://kgithub.com/Paxxs/Cluttered-bucket
+scoop bucket add spc https://kgithub.com/lzwme/scoop-proxy-cn
 scoop config SCOOP_REPO https://ghproxy.com/github.com/ScoopInstaller/Scoop
 scoop bucket add main https://ghproxy.com/github.com/ScoopInstaller/Main
-scoop bucket add games https://ghproxy.com/https://github.com/Calinou/scoop-games
-scoop bucket add RandomLabs https://ghproxy.com/https://github.com/TheRandomLabs/Scoop-Bucket
-scoop bucket add sc https://ghproxy.com/https://github.com/duzyn/scoop-cn
+scoop bucket add games https://kgithub.com/Calinou/scoop-games
+scoop bucket add RandomLabs https://kgithub.com/TheRandomLabs/Scoop-Bucket
+scoop bucket add sc https://kgithub.com/duzyn/scoop-cn
 scoop install git sudo python nano yesplaymusic Meslo-NF-Mono Meslo-NF
 echo 你好，屏幕前的人，我想拜托你一件事情：请您先按下“Ctrl+,”快捷键，然后点击配置文件下的默认值，再点击外观选项，在字体栏上选择MesloLGL Nerd Font并回到这个标签页按下Enter键，谢谢
 echo 另外，如果报错请点击确定，并不用做任何事情，谢谢(●'◡'●)
