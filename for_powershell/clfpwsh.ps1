@@ -8,20 +8,20 @@ scoop config aria2-max-connection-per-server 16
 scoop config aria2-min-split-size 4M
 scoop install git
 scoop bucket rm main
-scoop config SCOOP_REPO https://ghproxy.com/github.com/ScoopInstaller/Scoop
-scoop bucket add main https://ghproxy.com/github.com/ScoopInstaller/Main
-scoop bucket add dorado https://ghproxy.com/github.com/chawyehsu/dorado
-scoop bucket add versions https://ghproxy.com/github.com/ScoopInstaller/Versions
-scoop bucket add extras https://ghproxy.com/github.com/ScoopInstaller/Extras
-scoop bucket add nerd-fonts https://ghproxy.com/github.com/matthewjberger/scoop-nerd-fonts
-scoop bucket add java https://ghproxy.com/github.com/ScoopInstaller/Java
-scoop bucket add nonportable https://ghproxy.com/github.com/TheRandomLabs/scoop-nonportable
-scoop bucket add nirsoft https://ghproxy.com/github.com/kodybrown/scoop-nirsoft
-scoop bucket add MorFans-apt https://ghproxy.com/github.com/Paxxs/Cluttered-bucket
-scoop bucket add spc https://ghproxy.com/github.com/lzwme/scoop-proxy-cn
-scoop bucket add games https://ghproxy.com/github.com/Calinou/scoop-games
-scoop bucket add RandomLabs https://ghproxy.com/github.com/TheRandomLabs/Scoop-Bucket
-scoop bucket add sc https://ghproxy.com/github.com/duzyn/scoop-cn
+scoop config SCOOP_REPO https://hub.gitmirror.com/github.com/ScoopInstaller/Scoop
+scoop bucket add main https://hub.gitmirror.com/github.com/ScoopInstaller/Main
+scoop bucket add dorado https://hub.gitmirror.com/github.com/chawyehsu/dorado
+scoop bucket add versions https://hub.gitmirror.com/github.com/ScoopInstaller/Versions
+scoop bucket add extras https://hub.gitmirror.com/github.com/ScoopInstaller/Extras
+scoop bucket add nerd-fonts https://hub.gitmirror.com/github.com/matthewjberger/scoop-nerd-fonts
+scoop bucket add java https://hub.gitmirror.com/github.com/ScoopInstaller/Java
+scoop bucket add nonportable https://hub.gitmirror.com/github.com/TheRandomLabs/scoop-nonportable
+scoop bucket add nirsoft https://hub.gitmirror.com/github.com/kodybrown/scoop-nirsoft
+scoop bucket add MorFans-apt https://hub.gitmirror.com/github.com/Paxxs/Cluttered-bucket
+scoop bucket add spc https://hub.gitmirror.com/github.com/lzwme/scoop-proxy-cn
+scoop bucket add games https://hub.gitmirror.com/github.com/Calinou/scoop-games
+scoop bucket add RandomLabs https://hub.gitmirror.com/github.com/TheRandomLabs/Scoop-Bucket
+scoop bucket add sc https://hub.gitmirror.com/github.com/duzyn/scoop-cn
 scoop install git sudo python nano yesplaymusic Meslo-NF-Mono Meslo-NF
 echo 你好，屏幕前的人，我想拜托你一件事情：请您先按下“Ctrl+,”快捷键，然后点击配置文件下的默认值，再点击外观选项，在字体栏上选择MesloLGL Nerd Font并回到这个标签页按下Enter键，谢谢
 echo 另外，如果报错请点击确定，并不用做任何事情，谢谢(●'◡'●)
@@ -42,8 +42,8 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip install rich cython pyfiglet
 cd ~
 aria2c https://gitee.com/supollad/shellfiles/raw/file/for_powershell/Microsoft.PowerShell_profile.ps1
-aria2c https://ghproxy.com/https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/montys.omp.json
-git clone https://ghproxy.com/https://github.com/Textualize/rich-cli.git 
+aria2c https://hub.gitmirror.com/https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/montys.omp.json
+git clone https://hub.gitmirror.com/github.com/Textualize/rich-cli.git 
 cd rich-cli
 pip install -e .
 cd ~
