@@ -1,5 +1,5 @@
-irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 scoop install aria2
 scoop config aria2-retry-wait 4
